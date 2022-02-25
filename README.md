@@ -5,8 +5,7 @@ Counts lines of code Multi Repo Git.
 
 ## Prerequisite
 
-- [cloc](https://github.com/AlDanial/cloc) is available on the path
-- 
+- [cloc](https://github.com/AlDanial/cloc) is available on the path 
 
 ## Usage
 
