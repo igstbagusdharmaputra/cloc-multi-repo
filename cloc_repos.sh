@@ -1,7 +1,6 @@
 #!/bin/bash
 TEMP_GIT_REPOS_DIR=/data/repos
 TEMP_REPORTS_DIR=/data/reports
-mkdir -p "$TEMP_REPORTS_DIR"
 
 # Delete existing reports
 if [ -d "$TEMP_REPORTS_DIR" ]; then
@@ -9,6 +8,7 @@ if [ -d "$TEMP_REPORTS_DIR" ]; then
   rm -rf $TEMP_REPORTS_DIR
 fi
 
+mkdir -p "$TEMP_REPORTS_DIR"
 
 cd $TEMP_GIT_REPOS_DIR
 while read repo; do
